@@ -24,7 +24,7 @@
 
 	setupProperties()
 		..()
-		setProperty("movespeed", 0.7)
+		setProperty("movespeed", 0.4)
 		setProperty("coldprot", 33)
 		setProperty("heatprot", 33)
 		setProperty("meleeprot", 1)

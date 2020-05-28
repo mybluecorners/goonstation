@@ -76,7 +76,7 @@
 
 	setupProperties()
 		..()
-		setProperty("movespeed", 1)
+		setProperty("movespeed", 0.5)
 
 	emag_act(var/mob/user, var/obj/item/card/emag/E)
 		if (!src.emagged)
@@ -188,7 +188,7 @@
 
 	proc/activate()
 		src.magnetic = 1
-		src.setProperty("movespeed", 0.5)
+		src.setProperty("movespeed", 0.3)
 		src.setProperty("disorient_resist", 10)
 		step_sound = "step_lattice"
 		playsound(src.loc, "sound/items/miningtool_on.ogg", 30, 1)
@@ -282,7 +282,7 @@
 
 	New()
 		..()
-		setProperty("negate_fluid_speed_penalty",0.6)
+		setProperty("negate_fluid_speed_penalty",0.2)
 
 /obj/item/clothing/shoes/moon
 	name = "moon shoes"
@@ -442,7 +442,7 @@
 
 	setupProperties()
 		..()
-		setProperty("movespeed", 0.9)
+		setProperty("movespeed", 0.7)
 
 	proc/toggle()
 		src.on = !(src.on)

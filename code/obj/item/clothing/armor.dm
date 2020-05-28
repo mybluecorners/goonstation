@@ -315,7 +315,7 @@
 		setProperty("rangedprot", 3)
 		setProperty("pierceprot",25)
 		setProperty("disorient_resist", 45)
-		setProperty("movespeed", 2)
+		setProperty("movespeed", 1.5)
 
 /obj/item/clothing/suit/armor/death_commando
 	name = "death commando armor"
@@ -391,7 +391,7 @@
 		setProperty("meleeprot", 9)
 		setProperty("rangedprot", 2)
 		setProperty("disorient_resist", 10)
-		setProperty("movespeed", 0.6)
+		setProperty("movespeed", 0.3)
 
 /obj/item/clothing/suit/armor/hoscape
 	name = "head of securitys cape"

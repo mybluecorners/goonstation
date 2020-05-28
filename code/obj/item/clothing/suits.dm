@@ -289,7 +289,7 @@
 		setProperty("radprot", 50)
 		setProperty("meleeprot", 4)
 		setProperty("rangedprot", 2)
-		setProperty("movespeed", 1)
+		setProperty("movespeed", 0.7)
 
 /obj/item/clothing/suit/rad // re-added for Russian Station as there is a permarads area there!
 	name = "\improper Class II radiation suit"
@@ -306,7 +306,7 @@
 
 	setupProperties()
 		..()
-		setProperty("movespeed", 0.6)
+		setProperty("movespeed", 0.35)
 		setProperty("radprot", 50)
 		setProperty("coldprot", 15)
 		setProperty("heatprot", 15)
@@ -494,7 +494,7 @@
 		..()
 		setProperty("coldprot", 20)
 		setProperty("heatprot", 20)
-		setProperty("movespeed", 15)
+		setProperty("movespeed", 6)
 
 /obj/item/clothing/suit/wcoat
 	name = "waistcoat"
@@ -827,7 +827,7 @@
 		setProperty("heatprot", 50)
 		setProperty("meleeprot", 3)
 		setProperty("rangedprot", 0.5)
-		setProperty("movespeed", 1)
+		setProperty("movespeed", 0.5)
 
 /obj/item/clothing/suit/fire/armored
 	name = "armored firesuit"
@@ -864,7 +864,7 @@
 		setProperty("heatprot", 65)
 		setProperty("meleeprot", 4)
 		setProperty("rangedprot", 0.8)
-		setProperty("movespeed", 2)
+		setProperty("movespeed", 1)
 
 /obj/item/clothing/suit/fire/old
 	name = "old firesuit"
@@ -986,7 +986,7 @@
 		setProperty("meleeprot", 3)
 		setProperty("rangedprot", 0.5)
 
-		setProperty("space_movespeed", 0.8)
+		setProperty("space_movespeed", 0.5)
 
 /obj/item/clothing/suit/space/emerg
 	name = "emergency suit"
@@ -999,7 +999,7 @@
 
 	setupProperties()
 		..()
-		setProperty("space_movespeed", 2)
+		setProperty("space_movespeed", 1.4)
 
 	snow // bleh whatever!!!
 		name = "snow suit"
@@ -1155,7 +1155,7 @@
 
 	setupProperties()
 		..()
-		setProperty("movespeed", 0.4)
+		setProperty("movespeed", 0.2)
 
 	security
 		name = "security diving suit"
