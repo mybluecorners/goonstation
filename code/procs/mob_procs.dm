@@ -128,7 +128,10 @@
 		else
 			throw_range = max(throw_range,0)
 
-		playsound(src.loc, "sound/misc/slip.ogg", 50, 1, -3)
+		if (intensity <= 2.4)
+			playsound(src.loc, "sound/misc/slip.ogg", 50, 1, -3)
+		else
+			playsound(src.loc, "sound/misc/slip_big.ogg", 50, 1, -3)
 		src.pulling = null
 
 		var/turf/T = get_ranged_target_turf(src, src.last_move_dir, intensity)
